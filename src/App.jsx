@@ -286,7 +286,12 @@ export default function XMASMRKTWebsite() {
           <div>
             <div className="font-black uppercase tracking-wide mb-4">Contact</div>
             <div className="space-y-3 text-white/70">
-              <div>markets@yegxmasmarket.org</div>
+              <a
+  href="mailto:markets@yegxmasmarket.org"
+  className="hover:text-white transition"
+>
+  markets@yegxmasmarket.org
+</a>
               <div>Edmonton, Alberta</div>
               <div>Instagram / TikTok</div>
             </div>
