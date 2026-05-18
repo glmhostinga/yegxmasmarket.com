@@ -53,9 +53,9 @@ export default function XMASMRKTWebsite() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-black uppercase leading-tight drop-shadow-2xl">
-           Christmas
+           Edmonton
             <br />
-            Holiday Market
+            Christmas Market
           </h1>
 
           <p className="mt-6 text-lg md:text-2xl max-w-3xl mx-auto text-[#f2f2f2] leading-relaxed">
