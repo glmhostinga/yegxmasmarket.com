@@ -13,9 +13,7 @@ export default function XMASMRKTWebsite() {
 
       {/* Navigation */}
       <nav className="bg-[#00877f] text-white px-8 py-4 flex items-center justify-between shadow-lg sticky top-0 z-50">
-        <div className="flex items-center gap-3">
-          <div className="text-3xl font-black tracking-widest text-[#ffe28a]">XMASMRKT</div>
-        
+        <div className="flex items-center gap-3">        
         </div>
 
         <div className="hidden md:flex gap-8 text-sm uppercase tracking-wide font-semibold">
