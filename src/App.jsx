@@ -4,13 +4,10 @@ export default function XMASMRKTWebsite() {
       {/* Top Bar */}
       <div className="bg-[#006d68] text-white text-sm py-2 px-6 flex justify-between items-center">
         <div className="flex gap-6">
-          <span>Experience the Magic of the Holidays</span>
-          <span>Vendor Applications Open for 2026</span>
+
         </div>
         <div className="flex gap-4 text-xs">
-          <span>Instagram</span>
-          <span>Facebook</span>
-          <span>TikTok</span>
+
         </div>
       </div>
 
@@ -18,7 +15,7 @@ export default function XMASMRKTWebsite() {
       <nav className="bg-[#00877f] text-white px-8 py-4 flex items-center justify-between shadow-lg sticky top-0 z-50">
         <div className="flex items-center gap-3">
           <div className="text-3xl font-black tracking-widest text-[#ffe28a]">XMASMRKT</div>
-          <div className="text-xs uppercase tracking-[0.3em] opacity-80">Holiday Market</div>
+        
         </div>
 
         <div className="hidden md:flex gap-8 text-sm uppercase tracking-wide font-semibold">
@@ -58,7 +55,7 @@ export default function XMASMRKTWebsite() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-black uppercase leading-tight drop-shadow-2xl">
-            XMASMRKT
+           Christmas
             <br />
             Holiday Market
           </h1>
