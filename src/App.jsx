@@ -69,9 +69,14 @@ export default function XMASMRKTWebsite() {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4 justify-center">
-            <button className="bg-[#ff2d55] hover:bg-[#e61d48] px-8 py-4 rounded-full font-bold text-lg transition shadow-2xl">
-              Become a Vendor
-            </button>
+           <a
+  href="https://forms.gle/z3VgyUqBrgjuYHPJ8"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-[#ff2d55] hover:bg-[#e61d48] px-8 py-4 rounded-full font-bold text-lg transition shadow-2xl inline-block"
+>
+  Become a Vendor
+</a>
 
             <a
   href="https://www.canva.com/design/DAHFjqHbzkM/OzGw62gkxLhra48y0rSkjA/view?utm_content=DAHFjqHbzkM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h46044d5e05"
