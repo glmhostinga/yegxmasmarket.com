@@ -65,7 +65,7 @@ export default function XMASMRKTWebsite() {
 
           <div className="mt-10 flex flex-wrap gap-4 justify-center">
            <a
-  href="https://forms.gle/z3VgyUqBrgjuYHPJ8"
+  href="https://near.tl/sm/J2br2KLph"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-[#ff2d55] hover:bg-[#e61d48] px-8 py-4 rounded-full font-bold text-lg transition shadow-2xl inline-block"
@@ -243,7 +243,7 @@ export default function XMASMRKTWebsite() {
           </p>
 
           <a
-  href="https://forms.gle/z3VgyUqBrgjuYHPJ8"
+  href="https://near.tl/sm/J2br2KLph"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-white text-[#ff2d55] hover:scale-105 transition px-10 py-5 rounded-full font-black text-lg shadow-2xl inline-block"
