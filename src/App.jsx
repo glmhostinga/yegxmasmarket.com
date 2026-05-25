@@ -25,7 +25,7 @@ export default function XMASMRKTWebsite() {
         </div>
 
         <a
-  href="https://forms.gle/z3VgyUqBrgjuYHPJ8"
+  href="https://near.tl/sm/J2br2KLph"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-[#ff2d55] hover:bg-[#e61d48] transition px-5 py-2 rounded-full text-sm font-bold shadow-md inline-block"
