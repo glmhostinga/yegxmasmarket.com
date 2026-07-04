@@ -1,13 +1,367 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page - Edmonton Christmas Market</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Become an Exhibitor | Events Centre</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:linear-gradient(to bottom,#f8fbff,#ffffff);
+
+color:#222;
+
+}
+
+/* Container */
+
+.container{
+
+width:90%;
+max-width:1350px;
+margin:auto;
+
+}
+
+/* Banner */
+
+.top-banner{
+
+margin:45px auto;
+
+background:linear-gradient(90deg,#702887,#9d3eb8);
+
+padding:18px;
+
+border-radius:12px;
+
+color:#fff;
+
+font-size:18px;
+
+font-weight:500;
+
+text-align:center;
+
+box-shadow:0 8px 30px rgba(122,44,145,.25);
+
+}
+
+/* Hero */
+
+.hero{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+gap:80px;
+
+padding:30px 0 100px;
+
+}
+
+/* Poster */
+
+.hero-image{
+
+flex:1;
+
+position:sticky;
+
+top:30px;
+
+}
+
+.hero-image img{
+
+width:100%;
+
+border-radius:18px;
+
+display:block;
+
+box-shadow:0 25px 60px rgba(0,0,0,.18);
+
+transition:.4s;
+
+}
+
+.hero-image img:hover{
+
+transform:scale(1.02);
+
+}
+
+/* Content */
+
+.hero-content{
+
+flex:1;
+
+animation:fadeUp .8s ease;
+
+}
+
+.hero-content .subtitle{
+
+color:#7A2C91;
+
+font-size:18px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+margin-bottom:15px;
+
+}
+
+.hero-content h1{
+
+font-size:60px;
+
+color:#0B2E59;
+
+line-height:1.1;
+
+margin-bottom:10px;
+
+}
+
+.hero-content h2{
+
+font-size:44px;
+
+color:#15396D;
+
+margin-bottom:25px;
+
+}
+
+.hero-content p{
+
+font-size:19px;
+
+line-height:1.9;
+
+margin-bottom:22px;
+
+color:#555;
+
+}
+
+.hero-content strong{
+
+color:#111;
+
+}
+
+/* Button */
+
+.btn{
+
+display:inline-flex;
+
+align-items:center;
+
+gap:15px;
+
+margin-top:20px;
+
+background:#F0B400;
+
+color:#fff;
+
+padding:20px 46px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-size:20px;
+
+font-weight:700;
+
+transition:.3s;
+
+box-shadow:0 12px 25px rgba(240,180,0,.35);
+
+}
+
+.btn:hover{
+
+background:#d99c00;
+
+transform:translateY(-4px);
+
+}
+
+.btn span{
+
+font-size:28px;
+
+transition:.3s;
+
+}
+
+.btn:hover span{
+
+transform:translateX(8px);
+
+}
+
+/* Animation */
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:1000px){
+
+.hero{
+
+flex-direction:column;
+
+gap:40px;
+
+}
+
+.hero-image{
+
+position:relative;
+
+top:0;
+
+}
+
+.hero-content{
+
+text-align:center;
+
+}
+
+.hero-content h1{
+
+font-size:42px;
+
+}
+
+.hero-content h2{
+
+font-size:34px;
+
+}
+
+.hero-content p{
+
+font-size:17px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="top-banner">
+Events Centre • Alberta's Premier Exhibitor Marketplace
+</div>
+
+<section class="hero">
+
+<div class="hero-image">
+
+<img src="https://eventscentre.ca/wp-content/uploads/2026/06/389d75f1-8487-49fb-9563-ff6bae3c5607.png"
+alt="Trading Post Market Poster">
+
+</div>
+
+<div class="hero-content">
+
+<div class="subtitle">
+Become a Vendor
+</div>
+
+<h1>Trading Post Market</h1>
+
+<h2>September 4–7, 2026</h2>
+
+<p>
+
+Join hundreds of exhibitors at one of Alberta's most anticipated market events.
+
+Present your products to thousands of enthusiastic shoppers while building valuable connections with customers from Cochrane, Calgary, and surrounding communities.
+
+</p>
+
+<p>
+
+With an expected attendance of
+<strong>20,000+ visitors</strong>,
+the Trading Post Market provides an exceptional opportunity for artisans, makers, retailers, food vendors, and specialty businesses to increase brand awareness and boost sales throughout the four-day event.
+
+</p>
+
+<a href="https://form.jotform.com/261838836497072" class="btn">
+
+Become a Vendor
+
+<span>→</span>
+
+</a>
+
+</div>
+
+</section>
+
+</div>
+
+</body>
+
 </html>
